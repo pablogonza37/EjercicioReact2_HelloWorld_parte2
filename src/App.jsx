@@ -8,10 +8,8 @@ function App() {
 
   return (
     <Container>
-      <TituloProps></TituloProps>
+      <TituloProps mensajeProps='my friend'></TituloProps>
     </Container>
-      
-    
   )
 }
 

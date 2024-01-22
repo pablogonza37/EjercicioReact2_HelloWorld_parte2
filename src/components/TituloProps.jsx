@@ -1,7 +1,7 @@
-const TituloProps = () => {
+const TituloProps = (props) => {
     return (
-        <h1>
-           Hello  
+        <h1 className="display-1 text-center">
+           Hello {props.mensajeProps}!
         </h1>
     );
 };
