@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Hello World (Parte 2)
+En este proyecto, hemos modificado el componente anterior para aceptar un valor a través de props y mostrar un mensaje personalizado. El mensaje ahora será "Hello, {nombre}!", donde {nombre} es el valor proporcionado a través de props.
 
-Currently, two official plugins are available:
+## Descripción
+Este proyecto es una continuación del anterior, donde ahora el mensaje "Hello World" es reemplazado por "Hello, {nombre}!".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
+Sigue estos pasos para ejecutar la aplicación en tu entorno local:
+
+- Clona este repositorio en tu máquina local utilizando Git:  git clone https://github.com/pablogonza37/EjercicioReact2_HelloWorld_parte2.git
+
+- Navega al directorio del proyecto: cd react-hello-world
+
+- Instala las dependencias del proyecto utilizando npm o yarn: npm install o yarn install
+
+- Una vez completada la instalación de las dependencias, puedes iniciar la aplicación: npm start o yarn start
+
+Esto iniciará la aplicación en el modo de desarrollo. 
+
+## Uso
+Después de iniciar la aplicación, verás el mensaje "Hello, {mensajeProps}!" en tu navegador web, donde {mensajeProps} es el valor que proporcionas como prop al componente.
